@@ -1,0 +1,3 @@
+# ignore all logs and inp
+*.log
+*.inp

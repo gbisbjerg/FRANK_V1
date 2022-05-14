@@ -1,0 +1,23 @@
+[Run]
+name: MCE
+cores: 20
+geo_input: geo.inp
+sp_input: sp.inp
+
+[Paths]
+frank: \\Users\\clash\\Desktop\\FRANK\\
+gamess: \\Users\\Public\\gamess-64\\
+
+[GGA]
+max_iterations: 2
+
+[GA]
+pop_size: 5
+generations: 10
+elite_count: 2
+crossover: 0.2
+mutation: 0.5
+
+[RGDA]
+max_iterations: 1000
+step_size: 0.001
