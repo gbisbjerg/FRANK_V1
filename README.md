@@ -6,4 +6,7 @@ FRANK works to optimize the provided structure by attempting to find the global 
 To overcome this problem the provided structure is translated to an array representing its dihedral angles which makes up each structure’s “genetic code” allowing for point mutations and crossing over to occur to introduce variation in the population. This structures are run through GAMESS to gain fitness scores for individuals and on the outer GGA loop remove individuals found within the same energy wells. 
 
 ![unnamed-4](https://user-images.githubusercontent.com/23414761/168407169-59eb7701-1690-4014-bd1e-084987bb02b6.png)
+Example of FRANK run with optimized final structure being printed
+
 <img width="490" alt="Screen Shot 2022-05-13 at 7 18 20 PM" src="https://user-images.githubusercontent.com/23414761/168407199-820b1c36-470f-404f-89e0-368e9c2fdd78.png">
+Diagram of FRANK workflow. 
